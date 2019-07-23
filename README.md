@@ -13,7 +13,7 @@ install dock to panel
 install gnome tweaks tool
 
 
-#E modify ~/.bashrc
+## modify ~/.bashrc
 
   alias whatismyip='dig +short myip.opendns.com @resolver1.opendns.com'
   alias ll='ls -la'
