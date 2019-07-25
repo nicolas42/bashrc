@@ -5,3 +5,9 @@
     alias push='git add . ; git commit -m "no comment" ; git push'
     alias tmux0='tmux att -t 0'
     alias dd='./darknet detector'
+
+
+    # Autohotkey.ahk
+    ^q:: Send !{f4}
+    Capslock::Enter
+    
