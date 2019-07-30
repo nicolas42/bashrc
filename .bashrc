@@ -1,6 +1,12 @@
+# My Stuff
 alias whatismyip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias ll='ls -la'
 alias push='git add . ; git commit -m "no comment" ; git push'
 alias tmux0='tmux att -t 0'
-# alias da='./darknet detector'
-alias fnd='find . -name '
+findn () { find $1 -name $2 ; }  
+indir () { cd $1 && $2 && cd - ; } 
+forf () { for f in ls $1 ; do $2 ; done }
+
+  # bash functions https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php
+  # example find size less than 1 megabyte
+  # find . -size -1M 
